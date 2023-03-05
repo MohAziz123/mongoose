@@ -1,10 +1,7 @@
 const express = require("express")
 const { addContact, getAll, getOneContact, deleteContact, UpdateContact } = require("../Controllers/Contact")
 
-
-
 const ContactRouter = express.Router()
-
 
 ContactRouter.post('/add',addContact)
 
