@@ -5,7 +5,8 @@ const contactSchema = new mongoose.Schema(
     {
         name : String,
         age : Number,
-        email : {type : String , required : true, unique : true}
+        email : {type : String , required : true, unique : true},
+        imageP : String
         }
 )
 
